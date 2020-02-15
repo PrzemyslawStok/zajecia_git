@@ -1,5 +1,7 @@
 package com.example.objects;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,5 +12,10 @@ public class Main {
 
     public static void print(){
 
+    }
+
+    public void printArray(ArrayList<Double> array){
+        for(Double element : array)
+            System.out.println("Element: "+element);
     }
 }
