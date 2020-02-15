@@ -7,4 +7,8 @@ public class Main {
         System.out.println("Napis");
         System.out.println("Kolejny napis");
     }
+
+    public static void print(){
+
+    }
 }
