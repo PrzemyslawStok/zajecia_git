@@ -11,4 +11,10 @@ public class Main {
     public static void print(){
 
     }
+
+    @Override
+    public String toString() {
+
+        return "Object main: "+super.toString();
+    }
 }
