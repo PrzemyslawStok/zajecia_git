@@ -1,5 +1,7 @@
 package com.example.objects;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,6 +17,11 @@ public class Main {
     @Override
     public String toString() {
 
-        return "Object main: "+super.toString();
+        return "Object main: " + super.toString();
+    }
+
+    public void printArray(ArrayList<Double> array){
+        for(Double element : array)
+            System.out.println("Element: "+element);
     }
 }
